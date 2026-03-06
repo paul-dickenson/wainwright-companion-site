@@ -1,0 +1,10 @@
+title: The Wainwright Companion
+description: Track, navigate and complete all 214 Wainwright fells
+url: https://wainwrightcompanion.co.uk
+theme: minima
+plugins:
+  - jekyll-seo-tag
+
+header_pages:
+  - privacy.md
+  - terms.md
