@@ -4,7 +4,7 @@ title: Privacy Policy
 permalink: /privacy/
 ---
 
-**Effective date:** 6 March 2026
+**Effective date:** 29 March 2026
 
 This privacy policy explains what data The Wainwright Companion ("the app") collects, how it is stored, and how it is used. We believe in keeping things simple: the app collects only what it needs to work, stores your data within Apple's infrastructure, and never sells or shares your personal information with advertisers.
 
@@ -20,6 +20,8 @@ This privacy policy explains what data The Wainwright Companion ("the app") coll
 
 - **Location data** — During active navigation, the app records your GPS position to provide route guidance, off-route alerts, and walk statistics (distance, ascent, pace). Location data is only collected while you are actively using the navigation feature. The app does not track your location in the background unless you have explicitly enabled background navigation.
 - **Walk statistics** — Duration, distance, ascent, descent, altitude, and speed are calculated from your GPS track during a walk.
+
+- **Health data** — If you complete a GPS-tracked walk and have granted Health permission, the app saves the walk as a Hiking workout in Apple Health. The workout record includes start time, end time, distance, and route data. The app also reads your existing workout history to avoid creating duplicate entries. Health data is stored in Apple Health on your device and, if you have iCloud enabled, in your iCloud Health database. We do not have access to your Health data.
 
 ### Data the app does not collect
 
@@ -50,6 +52,8 @@ The app uses two external services:
 - **Met Office Weather DataHub** — Your approximate location (latitude and longitude of the fell you are viewing) is sent to the Met Office to retrieve weather forecast data. No personal identifiers are included in these requests. The Met Office's privacy policy is available at [www.metoffice.gov.uk/policies/privacy](https://www.metoffice.gov.uk/policies/privacy).
 
 - **BRouter** — Fell coordinates are sent to calculate walking routes. No personal identifiers are included. BRouter is open-source software; route calculations may use a local instance bundled with the app or a remote server.
+
+- **Anthropic Claude (Companion Pro only)** — AI-powered features send your request through a proxy server operated by us (hosted on Cloudflare) to Anthropic's Claude API. Your request may include fell names, route details, or any text you type into the AI feature. A device identifier (a vendor UUID — not your Apple ID or name) is sent alongside each request for rate limiting. We do not log request content on our proxy. Anthropic's privacy policy is available at [anthropic.com/privacy](https://www.anthropic.com/privacy).
 
 No other third-party services receive your data.
 
